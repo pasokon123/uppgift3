@@ -4,7 +4,6 @@ html {
 body{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
 }
 header {
     display: flex;
@@ -12,12 +11,12 @@ header {
     justify-content: start;
     background-image: url(/images/claycourtcropped.jpg);
     background-size: cover;
-    height: 500px;
+    height: 200px;
     margin: -8px;
 }
 header ul {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     list-style: none;
     gap: 35px;
     margin: 0;
@@ -33,7 +32,7 @@ header li {
     padding: 10px;
     border-radius: 20px;
 }
-#title {
+/* #title {
     display: flex;
     align-self: center;
     text-align: center;
@@ -44,39 +43,28 @@ header li {
     border-radius: 20px;
     margin-top: 120px;
     width: 650px;
-}
+} */
 #section1 {
     display: flex;
-    justify-content: center;
-    scale: 0.4;
-    gap: 100px;
-    height: 500px;
+    height: auto;
+    margin-top: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(228, 243, 254);
 }
-#booking img {
-    scale: 0.9;
+#iconlinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;
 }
-#price img {
-    scale: 0.8;
+#section2 {
+    height: 400px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(203, 240, 255);
 }
-#court img {
-    scale: 0.8;
-}
-#booking {
-    font-size:5em ;
-    text-align: center;
-}
-#member {
-    font-size:5em ;
-    text-align: center;
-}
-#price {
-    font-size:5em ;
-    text-align: center;
-}
-#court {
-    font-size:5em ;
-    text-align: center;
-}
+
 footer {
     display: flex;
     flex-direction: row;
