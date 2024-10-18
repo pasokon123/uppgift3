@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
     display: flex;
@@ -9,7 +10,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background-image: url(/images/claycourtcropped.jpg);
+    background-image: url(/images/tennisball2cropped.jpg);
     background-size: cover;
     height: 200px;
     margin: -8px;
@@ -46,6 +47,7 @@ header li {
 } */
 #section1 {
     display: flex;
+    justify-content: space-between;
     height: auto;
     margin-top: 8px;
     margin-left: 100px;
@@ -55,8 +57,19 @@ header li {
 #iconlinks {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin: 50px;
+    font-size: 1.5em;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+#section1_picture {
+    margin: 20px;
+    margin-top: 60px;
+}
+#section1_text h1 {
+    font-size: 2.5em;
 }
 #section2 {
     height: 400px;
