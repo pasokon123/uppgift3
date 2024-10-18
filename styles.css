@@ -52,21 +52,50 @@ header li {
     gap: 100px;
     height: 500px;
 }
-#price {
+#booking img {
+    scale: 0.9;
+}
+#price img {
     scale: 0.8;
 }
-#court {
+#court img {
     scale: 0.8;
 }
 #booking {
-    scale: 0.9;
+    font-size:5em ;
+    text-align: center;
+}
+#member {
+    font-size:5em ;
+    text-align: center;
+}
+#price {
+    font-size:5em ;
+    text-align: center;
+}
+#court {
+    font-size:5em ;
+    text-align: center;
 }
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    height: 100px;
-    background-color: rgb(245, 194, 155);
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    background-color: rgb(37, 66, 105);
+    color: white;
     margin: -8px;
 }
+footer ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
+
