@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boka</title>
-    <link rel="stylesheet" src="/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <header>
+        <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="boka.html">Boka</a></li>
+        </ul>
+    </header>
+
+    <h1>Boka bana</h1>
+
+    <form nam="booking" id="booking" method="post">
+
+        <fieldset id="date">
+            <legend>Datum</legend>
+            <label for="day">Dag</label>
+            <input type="date" min="2024-10-22" max="2024-11-22" id="day">
+            <label for="hour">Tid</label>
+            <select id="hour" name="hour">
+                <option value="7">07:00</option>
+                <option value="8">08:00</option>
+                <option value="9">09:00</option>
+                <option value="10">10:00</option>
+                <option value="11">11:00</option>
+                <option value="12">12:00</option>
+                <option value="13">13:00</option>
+                <option value="14">14:00</option>
+                <option value="15">15:00</option>
+                <option value="16">16:00</option>
+                <option value="17">17:00</option>
+                <option value="18">18:00</option>
+                <option value="19">19:00</option>
+            </select>
+        </fieldset>
+
+        <fieldset id="bana">
+            <legend>Bana</legend>
+            <label><input type="radio" value="innebana" name="bana" checked>Innebana</label>
+            <label><input type="radio" value="utebana" name="bana">Utebana</label>
+
+        </fieldset>
+
+        <fieldset id="login">
+            <legend>Inloggning för medlemmar</legend>
+            <label for="email">E-post</label>
+            <input type="text" name="email" id="email">
+            <label for="city">Lösenord</label>
+            <input type="password" name="password" id="password">
+
+        </fieldset>
+
+        <fieldset id="players">
+            <legend>Spelare</legend>
+            <label for="name">Namn</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">E-post</label>
+            <input type="text" name="email" id="email" required>
+        </fieldset>
+
+        <input type="submit" value="Boka" id="send">
+
+
+
+    </form>
+
+
+
+
+
+
 
 </body>
+
 </html>

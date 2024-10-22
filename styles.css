@@ -32,6 +32,10 @@ header li {
     padding: 10px;
     border-radius: 20px;
 }
+a {
+    text-decoration: none;
+    color:white;
+}
 
 /*section1 properties*/
 #section1 {
@@ -102,6 +106,31 @@ footer ul {
     align-items: center;
     gap: 6px;
 }
+
+/*Formulär*/
+#booking {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+}
+#date, #login, #players {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+#send {
+    display: block;
+    margin: auto;
+    width: 100px;
+    padding: 8px;
+    margin-top: 10px;
+
+}
+
+
+
 
 
 
