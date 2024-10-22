@@ -16,67 +16,85 @@
         </ul>
     </header>
 
-    <h1>Boka bana</h1>
+    <main>
+        <section id="section1">
 
-    <form nam="booking" id="booking" method="post">
+            <form nam="booking" id="booking" method="post">
+                <fieldset id="date">
+                    <legend>Datum</legend>
+                    <label for="day">Dag</label>
+                    <input type="date" min="2024-10-22" max="2024-11-22" id="day">
+                    <label for="hour">Tid</label>
+                    <select id="hour" name="hour">
+                        <option value="7">07:00</option>
+                        <option value="8">08:00</option>
+                        <option value="9">09:00</option>
+                        <option value="10">10:00</option>
+                        <option value="11">11:00</option>
+                        <option value="12">12:00</option>
+                        <option value="13">13:00</option>
+                        <option value="14">14:00</option>
+                        <option value="15">15:00</option>
+                        <option value="16">16:00</option>
+                        <option value="17">17:00</option>
+                        <option value="18">18:00</option>
+                        <option value="19">19:00</option>
+                    </select>
+                </fieldset>
 
-        <fieldset id="date">
-            <legend>Datum</legend>
-            <label for="day">Dag</label>
-            <input type="date" min="2024-10-22" max="2024-11-22" id="day">
-            <label for="hour">Tid</label>
-            <select id="hour" name="hour">
-                <option value="7">07:00</option>
-                <option value="8">08:00</option>
-                <option value="9">09:00</option>
-                <option value="10">10:00</option>
-                <option value="11">11:00</option>
-                <option value="12">12:00</option>
-                <option value="13">13:00</option>
-                <option value="14">14:00</option>
-                <option value="15">15:00</option>
-                <option value="16">16:00</option>
-                <option value="17">17:00</option>
-                <option value="18">18:00</option>
-                <option value="19">19:00</option>
-            </select>
-        </fieldset>
+                <fieldset id="bana">
+                    <legend>Bana</legend>
+                    <label><input type="radio" value="innebana" name="bana" checked>Innebana</label>
+                    <label><input type="radio" value="utebana" name="bana">Utebana</label>
+                </fieldset>
 
-        <fieldset id="bana">
-            <legend>Bana</legend>
-            <label><input type="radio" value="innebana" name="bana" checked>Innebana</label>
-            <label><input type="radio" value="utebana" name="bana">Utebana</label>
+                <fieldset id="login">
+                    <legend>Inloggning för medlemmar</legend>
+                    <label for="email">E-post</label>
+                    <input type="text" name="email" id="email">
+                    <label for="city">Lösenord</label>
+                    <input type="password" name="password" id="password">
 
-        </fieldset>
+                </fieldset>
 
-        <fieldset id="login">
-            <legend>Inloggning för medlemmar</legend>
-            <label for="email">E-post</label>
-            <input type="text" name="email" id="email">
-            <label for="city">Lösenord</label>
-            <input type="password" name="password" id="password">
+                <fieldset id="players">
+                    <legend>Spelare</legend>
+                    <label for="name">Namn</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="email">E-post</label>
+                    <input type="text" name="email" id="email" required>
+                </fieldset>
 
-        </fieldset>
+                <input type="submit" value="Boka" id="send">
+            </form>
 
-        <fieldset id="players">
-            <legend>Spelare</legend>
-            <label for="name">Namn</label>
-            <input type="text" name="name" id="name" required>
-            <label for="email">E-post</label>
-            <input type="text" name="email" id="email" required>
-        </fieldset>
+            <div id="explain">
+                <h1>Boka!</h1>
+                <h2>Så här bokar du:</h2>
+                <p>Du som inte är medlem fyller i all information <strong>förutom</strong> rutan <em>Inloggning för medlemmar</em>. När du är färdig med din bokning och klickar på <em>Boka</em> så skickas ett mail till dig med betalningsinstruktioner och portkod. </p>
+                <p><strong>För dig som är medlem fyller du i dina inloggningsuppgifter i rutan för medlemmar och behöver inte fylla i <em>Spelare</em> rutan.</strong></p>
+                <p>Intresserad av att bli medlem? Läs mer genom att klicka på ikonen nedan.</p>
+                <a href="medlem.html"><img src="/images/memberscaled.png" alt="medlem symbol"></a>
+            </div>
+        </section>
+    </main>
 
-        <input type="submit" value="Boka" id="send">
+    <footer>
+        <div class="info">
+            <img src="/images/clockscaled.png">
+            <span>Varje dag 07:00-20:00</span>
+        </div>
+        <div class="info">
+            <img src="/images/mapscaled.png">
+            <span>Tennisgatan 45, Norra Tennisby 123</span>
+        </div>
+        <div class="info">
+            <img src="/images/telephonescaled.png">
+            <span>0123456789</span>
+        </div>
 
-
-
-    </form>
-
-
-
-
-
-
+        </div>
+    </footer>
 
 </body>
 
