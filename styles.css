@@ -131,6 +131,30 @@ footer ul {
 #explain {
     width: 500px;
 }
+/*Medlem sidan*/
+#section1 #rackets {
+    margin: 50px;
+    border-radius: 20px;
+}
+#member_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    gap: 50px;
+}
+.member_prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.member_prices img {
+    display: block;
+}
+
+
+
 
 
 
