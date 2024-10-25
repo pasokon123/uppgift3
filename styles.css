@@ -40,7 +40,8 @@ a {
 /*section1 properties*/
 #section1 {
     display: flex;
-    height: auto;
+    justify-content: center;
+    height: 100vh;
     margin-top: 8px;
     margin-left: 100px;
     margin-right: 100px;
@@ -136,12 +137,12 @@ footer ul {
     margin: 50px;
     border-radius: 20px;
 }
-#member_wrapper {
+#member_links {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
     gap: 50px;
+    margin: 50px;
 }
 .member_prices {
     display: flex;
@@ -151,6 +152,22 @@ footer ul {
 }
 .member_prices img {
     display: block;
+}
+
+/*Price table*/
+table {
+    border-collapse: collapse;
+    display: block;
+    margin-bottom: 50px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+#pricelist_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
