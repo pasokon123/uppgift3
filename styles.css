@@ -107,7 +107,7 @@ footer ul {
     gap: 6px;
 }
 
-/*Formulär*/
+/*Booking form*/
 #booking {
     width: 350px;
     display: flex;
@@ -132,7 +132,7 @@ footer ul {
 #explain {
     width: 500px;
 }
-/*Medlem sidan*/
+/*Member page*/
 #section1 #rackets {
     margin: 50px;
     border-radius: 20px;
@@ -168,6 +168,26 @@ th, td {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/*Signup page*/
+#signup_wrapper {
+    
+}
+/*Signup form*/
+#signup fieldset {
+    display: grid;
+    white-space: nowrap;
+    min-width: 500px;
+    padding: 30px;
+    gap: 15px;
+}
+#account, #personal {
+    grid-template-columns: min-content auto;
+}
+#account input, #personal input {
+    max-width: 220px;
+    margin-left: 40px;
 }
 
 
