@@ -41,7 +41,7 @@ a {
 #section1 {
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 110vh;
     margin-top: 8px;
     margin-left: 100px;
     margin-right: 100px;
@@ -71,7 +71,8 @@ a {
 /*section2 properties*/
 #section2 {
     display: flex;
-    height: auto;
+    align-items: start;
+    height: 400px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: rgb(203, 240, 255);
@@ -87,24 +88,12 @@ a {
     margin-right: 80px;
 }
 
-/*footer properties*/
-footer {
+/*Booking page*/
+.logo_links {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 150px;
-    background-color: rgb(37, 66, 105);
-    color: white;
-    margin: -8px;
-}
-footer ul {
-    list-style: none;
-    font-size: 1.5em;
-}
-.info {
-    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 6px;
 }
 
 /*Booking form*/
@@ -137,23 +126,25 @@ footer ul {
     margin: 50px;
     border-radius: 20px;
 }
-#member_links {
+#member_wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 50px;
-    margin: 50px;
-}
-.member_prices {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.member_prices img {
-    display: block;
 }
 
+/*Price page*/
+.local_links {
+    display: flex;
+    justify-content: center;
+}
+.local_links ul {
+    list-style: none;
+}
+.local_links li {
+    display: inline-block;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px blue solid;
+    background-color: rgb(6, 79, 142);
+}
 /*Price table*/
 table {
     border-collapse: collapse;
@@ -170,11 +161,7 @@ th, td {
     gap: 20px;
 }
 
-/*Signup page*/
-#signup_wrapper {
-    
-}
-/*Signup form*/
+/*Signup form on signup page*/
 #signup fieldset {
     display: grid;
     white-space: nowrap;
@@ -190,6 +177,25 @@ th, td {
     margin-left: 40px;
 }
 
+/*footer properties*/
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 150px;
+    background-color: rgb(37, 66, 105);
+    color: white;
+    margin: -8px;
+}
+footer ul {
+    list-style: none;
+    font-size: 1.5em;
+}
+.info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
 
 
 
