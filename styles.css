@@ -28,18 +28,25 @@ header li {
     font-size: 2.5em;
     padding: 8px;
     border-radius: 20px;
+    transition: 0.2s;
 }
-#rapport {
+#rapport li {
     margin-right: 95px;
-    border: 2px solid rgb(22, 22, 148);
-    border-radius: 20px;
+    border:rgb(22, 22, 148) 3px solid;
 }
-
+header li:hover {
+    color: rgb(22, 22, 148);
+    background-color:aliceblue;
+}
+header #rapport li:hover {
+    color: white;
+    background-color:rgb(23, 23, 138);
+}
 ul a {
     text-decoration: none;
     color:white;
 }
-#rapport a {
+header #rapport li {
     color: rgb(28, 56, 167);
 }
 
