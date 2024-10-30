@@ -85,7 +85,7 @@ header #rapport li {
 #section2 {
     display: flex;
     align-items: start;
-    height: 400px;
+    height: 300px;
     margin-left: 100px;
     margin-right: 100px;
     background-color: rgb(203, 240, 255);
@@ -132,7 +132,10 @@ header #rapport li {
     margin-top: 10px;
 }
 #explain {
-    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
 }
 /*Member page*/
 #section1 #rackets {
@@ -189,7 +192,10 @@ th, td {
     max-width: 220px;
     margin-left: 40px;
 }
-
+/*Find us page*/
+#map {
+    margin-bottom: 100px;
+}
 /*footer properties*/
 footer {
     display: flex;
