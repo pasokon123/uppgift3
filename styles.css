@@ -32,7 +32,7 @@ header li {
 }
 #rapport li {
     margin-right: 95px;
-    border:rgb(22, 22, 148) 3px solid;
+
 }
 header li:hover {
     color: rgb(22, 22, 148);
@@ -70,6 +70,17 @@ header #rapport li {
     display: flex;
     align-items: center;
 }
+.icons img {
+    border: 1px solid rgb(228, 243, 254);
+    border-radius: 40px;
+    transition: 0.2s;
+}
+.icons img:hover {
+    border: 1px solid rgb(23, 23, 138);
+    border-radius: 40px;
+
+
+}
 #section1_picture {
     margin: 20px;
     margin-top: 60px;
@@ -77,7 +88,7 @@ header #rapport li {
 #section1_picture img {
     border-radius: 10px;
 }
-#section1_text h1, #explain h1 {
+#section1_text h1, #explain h1, #centertext h1 {
     font-size: 2.5em;
 }
 
@@ -134,13 +145,19 @@ header #rapport li {
 #explain {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
     width: 600px;
+}
+#explain h1 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+#explain h2 {
+    margin: 6px;
 }
 /*Member page*/
 #section1 #rackets {
     margin: 50px;
+    margin-top: 35px;
     border-radius: 20px;
 }
 #member_wrapper {
@@ -176,6 +193,19 @@ header #rapport li {
     border-radius: 10px;
 }
 /*Price page*/
+#centertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 600px;
+}
+#centertext h1 {
+    margin: 10px;
+}
+#centertext p {
+    margin-bottom: 50px;
+}
 .local_links {
     display: flex;
     justify-content: center;
@@ -188,15 +218,20 @@ header #rapport li {
     display: inline-block;
     padding: 8px;
     border-radius: 10px;
-    border: 1px blue solid;
+    border: 1px  solid rgb(22, 22, 148);
     background-color: rgb(6, 79, 142);
     margin: 6px;
+    transition: 0.15s;
+}
+.local_links li:hover {
+    color: rgb(22, 22, 148);
+    background-color: aliceblue;
 }
 /*Price table*/
 table {
     border-collapse: collapse;
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 th, td {
     border: 1px solid black;
