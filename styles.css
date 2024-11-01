@@ -31,23 +31,16 @@ header li {
     transition: 0.2s;
 }
 #rapport li {
-    margin-right: 95px;
+    margin-right: 340px;
 
 }
 header li:hover {
     color: rgb(22, 22, 148);
     background-color:aliceblue;
 }
-header #rapport li:hover {
-    color: white;
-    background-color:rgb(23, 23, 138);
-}
 ul a {
     text-decoration: none;
     color:white;
-}
-header #rapport li {
-    color: rgb(28, 56, 167);
 }
 
 /*section1 properties*/
@@ -212,9 +205,6 @@ header #rapport li {
 #centertext h1 {
     margin: 10px;
 }
-#centertext p {
-    margin-bottom: 50px;
-}
 .local_links {
     display: flex;
     justify-content: center;
@@ -241,6 +231,7 @@ table {
     border-collapse: collapse;
     display: block;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 th, td {
     border: 1px solid black;
@@ -273,6 +264,10 @@ th, td {
 /*Find us page*/
 #map {
     margin-bottom: 100px;
+}
+/*Rapport page*/
+dd {
+    margin-bottom: 20px;
 }
 /*footer properties*/
 footer {
