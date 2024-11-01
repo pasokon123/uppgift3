@@ -119,6 +119,15 @@ header #rapport li {
     justify-content: center;
     align-items: center;
 }
+.logo_links img {
+    border: 1px solid rgb(228, 243, 254);
+    border-radius: 10px;
+    transition: 0.15s;
+}
+.logo_links img:hover {
+    border: 1px solid rgb(23, 23, 138);
+    border-radius: 10px;
+}
 
 /*Booking form*/
 #booking {
