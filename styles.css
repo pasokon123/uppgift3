@@ -135,6 +135,7 @@ header #rapport li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     width: 600px;
 }
 /*Member page*/
@@ -144,6 +145,11 @@ header #rapport li {
 }
 #member_wrapper {
     display: flex;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /*Courts page*/
@@ -173,6 +179,7 @@ header #rapport li {
 .local_links {
     display: flex;
     justify-content: center;
+    margin-right: 40px;
 }
 .local_links ul {
     list-style: none;
@@ -183,6 +190,7 @@ header #rapport li {
     border-radius: 10px;
     border: 1px blue solid;
     background-color: rgb(6, 79, 142);
+    margin: 6px;
 }
 /*Price table*/
 table {
@@ -215,6 +223,9 @@ th, td {
     max-width: 220px;
     margin-left: 40px;
 }
+#send {
+    margin-bottom: 30px;
+}
 /*Find us page*/
 #map {
     margin-bottom: 100px;
@@ -237,6 +248,7 @@ footer ul {
     display: flex;
     align-items: center;
     gap: 6px;
+    margin-right: 70px;
 }
 
 
