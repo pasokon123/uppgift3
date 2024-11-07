@@ -53,7 +53,7 @@ header ul a {
     margin-top: 8px;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(228, 243, 254);
+    background-color: rgb(226, 240, 250);
 }
 #iconlinks {
     display: flex;
@@ -92,7 +92,7 @@ header ul a {
     height: 300px;
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(203, 240, 255);
+    background-color: rgb(199, 220, 249);
 }
 .section2_picture {
     margin: 25px;
