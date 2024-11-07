@@ -26,21 +26,23 @@ header li {
     color: white;
     border: solid white 1px;
     font-size: 2.5em;
-    padding: 8px;
     border-radius: 20px;
     transition: 0.2s;
 }
-#rapport li {
+#rapport {
     margin-right: 340px;
-
 }
-header li:hover {
+header a:hover {
     color: rgb(22, 22, 148);
     background-color:aliceblue;
 }
-ul a {
+header ul a {
+    display: block;
+    padding: 8px;
+    border-radius: 20px;
     text-decoration: none;
     color:white;
+    transition: 0.15s;
 }
 
 /*section1 properties*/
@@ -71,8 +73,6 @@ ul a {
 .icons img:hover {
     border: 1px solid rgb(23, 23, 138);
     border-radius: 40px;
-
-
 }
 #section1_picture {
     margin: 20px;
@@ -162,6 +162,34 @@ ul a {
     margin-top: 35px;
     border-radius: 20px;
 }
+.local_links {
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+.local_links ul {
+    list-style: none;
+}
+.local_links li {
+    display: inline-block;
+    margin: 6px;
+    transition: 0.15s;
+}
+.local_links a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(6, 79, 142);
+    border: 1px  solid rgb(22, 22, 148);
+    transition: 0.15s;
+}
+.local_links a:hover {
+    color: rgb(22, 22, 148);
+    background-color:aliceblue;
+    border-radius: 10px;
+}
 #member_wrapper {
     display: flex;
 }
@@ -205,27 +233,7 @@ ul a {
 #centertext h1 {
     margin: 10px;
 }
-.local_links {
-    display: flex;
-    justify-content: center;
-    margin-right: 40px;
-}
-.local_links ul {
-    list-style: none;
-}
-.local_links li {
-    display: inline-block;
-    padding: 8px;
-    border-radius: 10px;
-    border: 1px  solid rgb(22, 22, 148);
-    background-color: rgb(6, 79, 142);
-    margin: 6px;
-    transition: 0.15s;
-}
-.local_links li:hover {
-    color: rgb(22, 22, 148);
-    background-color: aliceblue;
-}
+
 /*Price table*/
 table {
     border-collapse: collapse;
